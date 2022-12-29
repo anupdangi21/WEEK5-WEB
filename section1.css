@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap");
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Unbounded', cursive;
+
+/* Set the box-sizing for all elements to border-box */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 30%;
+  background-color: rgb(69, 69, 212);
+  padding: 5%;
+  color: #ffffff;
+  height: 83vh;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: "Unbounded", cursive;
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-weight: 200;
+}
+
+figure {
+  width: 80%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+}
+
+.button {
+  margin-top: 18px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: rgb(19, 169, 228);
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgb(36, 2, 2);
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  background: rgb(34, 6, 6);
+  color: orange;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap");
+
+/* Set the box-sizing for all elements to border-box */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  width: 50%;
+  background-color: rgb(10, 248, 137);
+  padding: 5px;
+}
+
+.right-column {
+  width: 50%;
+  padding: 5px;
+  background-color: rgb(28, 214, 228);
+}
+figure {
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+  
+
+
+
+@media screen and (max-width: 1024px) {
+  .left-column {
+    background-color: rgb(66, 55, 219);
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-column {
+    background-color: rgb(73, 152, 241);
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
